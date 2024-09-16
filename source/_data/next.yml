@@ -1,0 +1,149 @@
+# Schemes
+#scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+scheme: Gemini
+fancybox: true
+toc:
+  enable: true
+  number: false
+  wrap: true
+  expand_all: false
+  max_depth: 6
+custom_file_path:
+  # sidebar: source/_data/next/sidebar.swig
+  footer: source/_data/next/footer.swig
+  style: source/_data/next/styles.styl
+  bodyEnd: source/_data/next/body-end.swig
+  variable: source/_data/next/variables.styl
+favicon:
+  small: /images/favicon.ico
+  medium: /images/favicon.ico
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
+  language: deed.zh
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  # guestbook: /guestbook/ || fa fa-book
+  Links: /Links/ || fa fa-link
+  # sitemap: /sitemap.xml || fa fa-sitemap
+  photos: /photos/ || fas fa-images
+  # Minecraft: /MineCraft/ ||
+math:
+  per_page: true
+  mathjax:
+    enable: true
+sidebar:
+  display: always
+  onmobile: true
+  position: left
+avatar:
+  url: /images/avatar.png
+  rounded: true
+  rotated: true
+social:
+  GitHub: https://github.com/WangSimiao2000 || fab fa-github
+  E-Mail: mailto:WangSimiao2000@qq.com || fa fa-envelope
+  Weibo: https://www.weibo.com/u/6152146820 || fab fa-weibo
+  Bilibili: https://space.bilibili.com/36913332 || fas fa-tv
+  CSDN: https://blog.csdn.net/NorthSouth_Cat || fa fa-crosshairs
+  Steam: https://steamcommunity.com/profiles/76561198992602053/ || fab fa-steam
+  QQ: tencent://message/?uin=1872557359 || fab fa-qq
+  RSS: /atom.xml || fas fa-rss-square
+post_meta:
+  updated_at:
+    enable: false
+  tags: true
+footer:
+  icon:
+    name: fas fa-heart
+    animated: true
+    color: "#ff0000"
+  powered: false
+  since: 2021
+  copyright: 
+  beian:
+    enable: false
+    icp: 蜀ICP备2021032603号
+    gongan_id: 川
+    gongan_num: 川公网安备 51012202001157号
+    gongan_icon_url: /images/备案图标.png
+valine:
+  enable: true
+  appid: KLpcdksv48una5sfXRLLuEqC-gzGzoHsz # Your leancloud application appid
+  appkey: T0dQ1RipNDj6IXkigT4fIugs # Your leancloud application appkey
+  notify: true # Mail notifier
+  verify: false # Verification code
+  placeholder: 输入昵称和邮箱可以更快收到回复哦 # Comment box placeholder
+  avatar: hide # Gravatar style
+  guest_info: nick,mail,link # Custom comment header
+  pageSize: 10 # Pagination size
+  language: zh-cn # Language, available values: en, zh-cn
+  visitor: true # Article reading statistic
+  comment_count: false # If false, comment count will only be displayed in post page, not in home page
+  recordIP: false # Whether to record the commenter IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  #post_meta_order: 0
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+pace:
+  enable: false
+  theme: loading-bar
+filter_image:
+  log: true
+busuanzi_count:
+  enable: false
+# 鼠标点击特效
+# mouse click effect: fireworks | explosion | love
+cursor_effect: fireworks
+# Dark Mode
+darkmode: false
+# Darkmode JS
+# For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js
+darkmode_js:
+  enable: true
+  bottom: '32px' # default: '32px'
+  right: 'unset' # default: '32px'
+  left: '32px' # default: 'unset'
+  time: '0.5s' # default: '0.3s'
+  mixColor: 'transparent' # default: '#fff'
+  backgroundColor: 'transparent' # default: '#fff'
+  buttonColorDark: '#100f2c' # default: '#100f2c'
+  buttonColorLight: '#fff' # default: '#fff'
+  isActivated: false # default false
+  saveInCookies: true # default: true
+  label: '🌓' # default: ''
+  autoMatchOsTheme: true # default: true
+  libUrl: # Set custom library cdn url for Darkmode.js
+codeblock:
+  highlight_theme: night eighties
+  copy_button:
+    enable: true
+    show_result: true
+    # Available values: default | flat | mac
+    style: flat
+canvas_ribbon:
+  enable: false
+  size: 300 # The width of the ribbon
+  alpha: 0.6 # The transparency of the ribbon
+  zIndex: -1 # The display level of the ribbon
+mediumzoom: true
+reading_progress:
+  enable: true
+  position: top               # 进度条的位置：top | bottom
+  color: "#FFCC00"            # 进度条的颜色
+  height: 3px                 # 进度条的大小
